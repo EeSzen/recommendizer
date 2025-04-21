@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Recommendations from "./pages/Recommendations";
-// import About from "./pages/About";
+import Function from "./pages/Function";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/recommendations" element={<Recommendations />} />
-        {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/function" element={<Function />} />
       </Routes>
     </Router>
   );
